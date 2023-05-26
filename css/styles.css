@@ -1,0 +1,50 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Teko', sans-serif;
+    margin: 250px;
+    background-color: whitesmoke;
+    
+}
+.botonera{
+    width: 400px;
+    height: 300px;
+    background-color: #757575;
+    padding: 15px 15px 25px 22px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 75px;
+    grid-row: 100px 100px 100px 75px;
+    gap: 5px;
+    width: 800px;
+}
+.borrar {
+    width: 213px;
+    margin: 5px;
+    background-color: yellow;
+}
+.contenedor .item {
+    font-size: 30px;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+}
+.contenedor .item:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.botonera .borrar:hover {
+    background-color: rgb(52, 157, 20);
+    cursor: pointer;
+}
+.contenedor .item.cero {
+    grid-column: 3/4;
+
+}.contenedor .btn-operator:hover {
+    background-color: rgb(172, 176, 161);
+    cursor: pointer;
+}
+
+.muestra-resultado{
+    height: 46px;
+}
